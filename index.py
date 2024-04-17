@@ -22,10 +22,16 @@
 # height=1.5
 # bmi=weight//height ** 2
 # print(int (bmi)) 
-    #   f strings  
-age =int( input("what is your age :"))
-years_left= 90-age
-days=years_left*265
-week= years_left*52
-months=years_left*12
-print(f"You have {days}days {week}weeks and {months}months left")
+#     #   f strings  
+# age =int( input("what is your age :"))
+# years_left= 90-age
+# days=years_left*265
+# week= years_left*52
+# months=years_left*12
+# print(f"You have {days}days {week}weeks and {months}months left")
+                  # if else
+num = int (input("type a number "))
+if num %2 ==0 :
+    print("even")
+else :
+    print("odd")
