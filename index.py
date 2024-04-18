@@ -36,5 +36,15 @@
 # else :
 #     print("odd")
                        # list
-box= [1,2,3,["a","b","c"],2,3]
-print(box[3][1]) #b
+# box= [1,2,3,["a","b","c"],2,3]
+# print(box[3][1]) #b
+    #  tuple
+# b=1,2
+# a =(1,)
+# print(type(a))
+# print(type(b)) 
+    #   set
+a = [1,2,3,4]
+b= [3,4,5,8,7]
+c= set(a).intersection(set(b))
+print (c)
