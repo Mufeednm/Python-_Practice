@@ -30,8 +30,11 @@
 # months=years_left*12
 # print(f"You have {days}days {week}weeks and {months}months left")
                   # if else
-num = int (input("type a number "))
-if num %2 ==0 :
-    print("even")
-else :
-    print("odd")
+# num = int (input("type a number "))
+# if num %2 ==0 :
+#     print("even")
+# else :
+#     print("odd")
+                       # list
+box= [1,2,3,["a","b","c"],2,3]
+print(box[3][1]) #b
