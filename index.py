@@ -44,7 +44,8 @@
 # print(type(a))
 # print(type(b)) 
     #   set
-a = [1,2,3,4]
-b= [3,4,5,8,7]
-c= set(a).intersection(set(b))
-print (c)
+# a = [1,2,3,4]
+# b= [3,4,5,8,7]
+# c= set(a).intersection(set(b))
+# print (c)  
+    # dictonay
