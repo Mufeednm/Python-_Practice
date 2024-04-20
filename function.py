@@ -4,12 +4,18 @@
 #     print(avg)
 #     # return avg
 # babu(1,2,
-a=int (input("enter a number"))
-def oddeven(x):
-    if x %2==0:
-        print("its even")
-    else:
-     print("its odd")
+    #    function
+# a=int (input("enter a number"))
+# def oddeven(x):
+#     if x %2==0:
+#         print("its even")
+#     else:
+#      print("its odd")
         
 
-oddeven(a)
+# oddeven(a)
+  #  anonymus function lamda
+a = int(input("Enter a number: "))
+print("It is even" if a % 2 == 0 else "It is odd")
+
+      
