@@ -15,7 +15,16 @@
 
 # oddeven(a)
   #  anonymus function lamda
-a = int(input("Enter a number: "))
-print("It is even" if a % 2 == 0 else "It is odd")
-
-      
+# a = int(input("Enter a number: "))
+# print("It is even" if a % 2 == 0 else "It is odd")
+            # Arbitrary arguments  
+# def a (*args):
+#   for ax in args : 
+#     print(ax)
+# a (1,2,3,"abu")  
+#         # Arbitrary keyword arguments
+# def ab (**kwargs):
+#   for key , value  in kwargs.items() :
+#     # print(key, "-" ,value )
+#     print(f"{key} in {value}")
+# ab(fname="mufeed",lname="musthafa",age=24)         
